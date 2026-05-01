@@ -1,45 +1,21 @@
-# CIVE 202 – Civil Engineering Analysis II
-**Student:** Dawa Lamu Tamang
-**Course:** CIVE 202 – Civil Engineering Analysis II
-**Semester:** Spring 2026
-**Institution:** [University of Nebraska-Lincoln]
+# CIVE 202 – Project #1: Organizing and Summarizing Air Quality Data
 
----
+**Client:** UNMC Water, Climate and Health Group  
+**Course:** CIVE 202 – Civil Engineering  
 
-## About This Repository
-This repository contains all 5 group projects completed during Spring 2026 
-for CIVE 202. Each project folder includes raw data files, Python code, 
-a Statement of Work (SOW), a technical report, a timesheet, and a Gantt chart.
+## Project Overview
+This project analyzes air quality data collected from AirPurple sensors across Nebraska between February 2024 and March 2025. The purpose of this analysis is to help the UNMC Water, Climate and Health Group understand air quality conditions, identify potential pollution hotspots, and evaluate possible public health concerns.
 
----
+## Data Source
+The data used in this project were provided as part of the course assignment and originate from AirPurple community air quality monitors deployed across Nebraska. The raw CSV data file is included in this repository to ensure reproducibility.
 
-## Projects Overview
+## Methods
+The analysis was completed using Python in a Jupyter Notebook environment. The pandas library was used to load, organize, and analyze the dataset. Summary statistics were calculated for volatile organic compounds (VOC), particulate matter less than 2.5 microns (PM2.5), and particulate matter less than 10 microns (PM10). Data were grouped by sensor location, temperature and humidity, and sensor altitude.
 
-| Project | Topic |
-|---------|-------|
-| Project 1 | [|
-| Project 2 | [ |
-| Project 3 | Transportation Data Visualization & Driving Behaviour Simulation |
-| Project 4 | [
-| Project 5 | [|
+## Repository Contents
+- `Project1_AirQuality_Analysis.ipynb` – Jupyter Notebook containing all Python code used in the analysis  
+- `AirQuality_Daily_StudentVersion.csv` – Raw air quality data file used in the analysis  
+- `README.md` – Project description and repository overview  
 
----
-
-## ⭐ Featured Project: Project 3
-**Client:** Federal Highway Administration (FHWA)
-
-For Project 3, our team analyzed two national transportation datasets 
-(NHTS and NGSIM) to uncover trends in household travel behaviour and 
-real-world driving patterns. We built and validated an Intelligent Driver 
-Model (IDM) simulation in Python to model vehicle-following behaviour 
-and compared it against real trajectory data.
-
-**Tools used:** Python, pandas, matplotlib, seaborn
-
----
-
-## Team Members
-- Sydney Bird
-- Cameron Skeels
-- Dawa Lamu Tamang
-- Munezero Twubahimana
+## Notes
+All results in this repository are reproducible using the provided Jupyter Notebook and raw data file.
