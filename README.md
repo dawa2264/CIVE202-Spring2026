@@ -39,7 +39,6 @@ Converted an Excel-based NDOT concrete mix design worksheet into a Python progra
 
 ### Project 3 – Transportation Data Visualization & Driving Behaviour Simulation 
 **Client:** Federal Highway Administration (FHWA)
-**Team:** Sydney Bird, Cameron Skeels, Dawa Lamu Tamang, Munezero Twubahimana
 **Tools:** Python, pandas, matplotlib, seaborn
 
 Analyzed two national transportation datasets — the National Household Travel Survey (NHTS) and the Next Generation Simulation (NGSIM) — to uncover trends in household travel behaviour and real-world driving patterns. Built and validated an Intelligent Driver Model (IDM) simulation in Python to model how vehicles follow each other in traffic, then compared simulated results against real trajectory data.
