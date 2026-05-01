@@ -37,7 +37,7 @@ Analyzed air quality data from AirPurple sensors across Nebraska (Feb 2024 – M
 
 Converted an Excel-based NDOT concrete mix design worksheet into a Python program. The tool automates the mix proportioning workflow — taking material inputs and design parameters to produce a one-cubic-yard weight chart — making the process more reliable and repeatable than spreadsheet-only workflows.
 
-### Project 3 – Transportation Data Visualization & Driving Behaviour Simulation ⭐
+### Project 3 – Transportation Data Visualization & Driving Behaviour Simulation 
 **Client:** Federal Highway Administration (FHWA)
 **Team:** Sydney Bird, Cameron Skeels, Dawa Lamu Tamang, Munezero Twubahimana
 **Tools:** Python, pandas, matplotlib, seaborn
